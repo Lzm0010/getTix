@@ -23,8 +23,8 @@ metadata:
 spec:
   selector:
     app: auth
-    ports:
-      - name: auth
-        protocol: TCP
-        port: 3000
-        targetPort: 3000
+  ports:
+    - name: auth
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
